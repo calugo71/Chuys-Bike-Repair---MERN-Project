@@ -1,0 +1,20 @@
+ [ ] Replace current sticky note system
+ [X] Add a public facing page with basic contact info
+ [X] Add an employee login to the notes app
+ [X] Provide a welcome page after login
+ [ ]  Provide easy navigation
+ [ ]  Display current user and assigned role
+ [X] Provide a logout option
+ [X]  Require users to login at least once per week
+ [X]  Provide a way to remove employee access asap if needed
+ [X]  Notes are assigned to specific employees
+ [X]  Notes have a ticket #, title, note body, created & updated dates
+ [X]  Notes are either OPEN or COMPLETED
+ [X]  Users can be Employees, Managers, or Admins
+ [ ]  Notes can only be deleted by Managers or Admins
+ [ ]  Anyone can create a note (when customer checks-in)
+ [ ]  Employees can only view and edit their assigned notes
+ [ ]  Managers and Admins can view, edit, and delete all notes
+ [ ]  Only Managers and Admins can access User Settings
+ [ ]  Only Managers and Admins can create new users
+ [ ]  Desktop mode is most important but should be available in mobile
