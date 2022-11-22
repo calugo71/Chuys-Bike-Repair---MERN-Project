@@ -85,9 +85,10 @@ const NewUserForm = () => {
             <form className="form" onSubmit={onSaveUserClicked}>
                 <div className="form__title-row">
                     <h2>New User</h2>
-                    <div className="form__action-buttons">
-                        <Icon icon="bytesize:download" name="download" title="Save"disabled={!canSave}/>
-                    </div>
+                    <button
+                        name="download" title="Save"disabled={!canSave}>
+                            <Icon icon="bytesize:download" />
+                    </button>
                 </div>
                 <label className="form__label" htmlFor="username">
                     Username: <span className="nowrap">[3-20 letters]</span></label>
