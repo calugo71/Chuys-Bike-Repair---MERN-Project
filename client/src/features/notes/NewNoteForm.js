@@ -67,7 +67,7 @@ const NewNoteForm = ({ users }) => {
                             title="Save"
                             disabled={!canSave}
                         >
-                        <FontAwesomeIcon icon={faSave} />
+\
                         </button>
                     </div>
                 </div>
