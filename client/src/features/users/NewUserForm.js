@@ -67,7 +67,6 @@ const NewUserForm = () => {
             <option
                 key={role}
                 value={role}
-
             > {role}</option >
         )
     })
@@ -91,7 +90,7 @@ const NewUserForm = () => {
                             title="Save"
                             disabled={!canSave}
                         >
-                            <FontAwesomeIcon icon={faSave} />
+                        <FontAwesomeIcon icon={faSave} />
                         </button>
                     </div>
                 </div>
