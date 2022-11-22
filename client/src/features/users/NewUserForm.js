@@ -90,7 +90,7 @@ const NewUserForm = () => {
                             title="Save"
                             disabled={!canSave}
                         >
-                        <FontAwesomeIcon icon={faSave} />
+                            Save
                         </button>
                     </div>
                 </div>

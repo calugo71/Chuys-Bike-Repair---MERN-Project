@@ -66,7 +66,7 @@ const NewNoteForm = ({ users }) => {
                             className="icon-button"
                             title="Save"
                             disabled={!canSave}
-                        >
+                        > Save
                         </button>
                     </div>
                 </div>
