@@ -63,7 +63,7 @@ const NewNoteForm = ({ users }) => {
                 <div className="form__title-row">
                     <h2>New Ticket</h2>
                     <div className="form__action-buttons">
-                        <Icon name="download" title="Save"disabled={!canSave}/>
+                        <Icon icon="bytesize:download" name="download" title="Save"disabled={!canSave}/>
                     </div>
                 </div>
                 <label className="form__label" htmlFor="title">
