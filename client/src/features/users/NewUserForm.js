@@ -3,6 +3,7 @@ import { useAddNewUserMutation } from "./usersApiSlice"
 import { useNavigate } from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSave } from "@fortawesome/free-solid-svg-icons"
+import { Icon } from '@iconify/react';
 import { ROLES } from "../../config/roles"
 
 const USER_REGEX = /^[A-z]{3,20}$/
@@ -85,13 +86,7 @@ const NewUserForm = () => {
                 <div className="form__title-row">
                     <h2>New User</h2>
                     <div className="form__action-buttons">
-                        <button
-                            className="icon-button"
-                            title="Save"
-                            disabled={!canSave}
-                        >
-                            Save
-                        </button>
+                        <Icon name="download" title="Save"disabled={!canSave}/>
                     </div>
                 </div>
                 <label className="form__label" htmlFor="username">
