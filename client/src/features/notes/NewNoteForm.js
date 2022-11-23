@@ -64,7 +64,7 @@ const NewNoteForm = ({ users }) => {
                     <h2>New Ticket</h2>
                     <div className="form__action-buttons">
                         <button
-                        name="download" title="Save"disabled={!canSave}>
+                        name="download" title="Save" disabled={!canSave}>
                             <Icon icon="bytesize:download" />
                         </button>
                     </div>
